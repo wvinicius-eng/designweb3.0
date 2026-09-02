@@ -8,7 +8,7 @@ alert(`voce é maior de idade : ${idade >= 18}`)
 alert(`Hoje é final e semana: ${fds}`);
 
 if(idade >= 18 && fds){
-    alert("vocÊ pode beber")
+    alert("vocÊ pode beber!")
 }else{
     alert("Você não pode beber")
 }
