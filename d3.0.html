@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nAula 04: escopo de variaves</title>
+    <title>Aula 08: interação JS e HTML</title>
 </head>
+
 <body>
-    <h1>Data: 21/08/2026</h1>
-    <script src="./scripts/desijs.js"></script>
+
+    <h1>Data: 11/09/26</h1>
+
+    <table border="1">
+        <tr>
+            <td>
+                <button id="ant">Anterior</button>
+                <button id="prox">Próximo</button>
+            </td>
+
+            <td rowspan="4">
+                <img id="foto" src="./pets/img/foto1.jpg" width="350px">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <select id="combobox">
+                    <option value="1">Mel</option>
+                    <option value="2">Balu</option>
+                    <option value="3">Zoey</option>
+                    <option value="4">Aia</option>
+                    <option value="5">Pitomba</option>
+                    <option value="6">Bombom</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <ul>
+                    <li id="li">Mel</li>
+                    <li id="li2">Balu</li>
+                    <li id="li3">Zoey</li>
+                    <li id="li4">Aia</li>
+                    <li id="li5">Pitomba</li>
+                    <li id="li6">Bombom</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="range" id="opacit" min="0" step="0.1" value="1" max="1">
+            </td>
+        </tr>
+
+    </table>
+
+    <script src="./scripts/app1.js"></script>
+
 </body>
+
 </html>
