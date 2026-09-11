@@ -1,12 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+html <!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nAula 04: escopo de variaves</title>
+    <title>Calculadora</title>
 </head>
 <body>
-    <h1>Data: 21/08/2026</h1>
-    <script src="./scripts/desijs.js"></script>
+    <center>
+        <h3>Calculadora</h3>
+        <form id="formCalculadora">
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>
+                        Primeiro número
+                    </td>
+                    <td>
+                        <input type="number" id="n1" name="n1" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Operação</td>
+                    <td>
+                        <select id="op" name="op" required>
+                            <option value="">Selecione</option>
+                            <option value="+">Somar (+)</option>
+                            <option value="-">Subtrair (-)</option>
+                            <option value="*">Multiplicar (×)</option>
+                            <option value="/">Dividir (÷)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Segundo número</td>
+                    <td> <input type="number" id="n2" name="n2" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Calcular">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    <script src="./scripts/app.js"defer></script>
 </body>
 </html>
