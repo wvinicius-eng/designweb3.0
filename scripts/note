@@ -1,0 +1,10 @@
+ADICIPONA
+- push ("valor") : add no final
+- unshift ("valor"): add no começo
+REMOVE
+- pop (): retornar e remover o ultimo
+- shift(): rerna e remove o da frente
+- splice(posi ini, qtd de remov): remove e retorna intens como array
+ENCONTAR
+- indexOf("valor): retorna a posoção do valor xaso exista no array,se não -1
+
