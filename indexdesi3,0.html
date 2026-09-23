@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nAula 09: agenda de contatos</title>
+    <title>Aula 09: Agenda de Contatos</title>
 </head>
-
 <body>
-    <h1>Meus amigos</h1>
-    <form action="">
+    <h1>Meus Amigos</h1>
+    <hr/>
+    <form action="#" id="cadastro" method="post">
         <table>
             <tr>
-                <td>nome</td>
+                <td>Nome</td>
                 <td>
-                    <input type="text" required name="nome" minlength="=" 3">
+                    <input type="text" required name="nome" minlength="3"/>
                 </td>
             </tr>
             <tr>
+                <td>Data de Nascimento</td>
                 <td>
-                    Data de nasc
-                </td>
-                <td>
-                    <input type="date" required name="nasc">
+                    <input type="date" name="nasc"/>
                 </td>
             </tr>
             <tr>
+                <td>WhatsApp</td>
                 <td>
-                    Whatsapp
+                    <input type="tel" name="whatsapp"/>
                 </td>
-                <td>
-                    <input type="tel" required name="whatapp" </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit">
+                    <input type="submit" value="Adicionar">
                     <input type="reset">
                 </td>
             </tr>
         </table>
-     
     </form>
-       <ul id="lista">
-        <li>Listaa vazuia </li>
-        </ul>
-    <script src="./scripts/app1.js"></script>
+    <hr/>
+    <ul id="lista">
+        <li>Lista Vazia</li>
+    </ul>
+    <script src="./scripts/app2.js" defer></script>
 </body>
-
 </html>
