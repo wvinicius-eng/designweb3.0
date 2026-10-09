@@ -8,3 +8,9 @@ REMOVE
 ENCONTAR
 - indexOf("valor): retorna a posoção do valor xaso exista no array,se não -1
 
+atualizar:
+lista[pos] =  novo
+
+encontrar
+find (i=. condção):
+
